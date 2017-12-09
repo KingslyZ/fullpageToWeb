@@ -1,0 +1,368 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-28 10:57:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-30 16:42:28
+*/
+.pra{
+	position: absolute;
+}
+/* 进入和下一个 */
+.enter{
+	right:5%;
+	top:5%;
+	z-index: 10;
+}
+.next{
+	right:5%;
+	bottom:5%;
+	z-index: 10;
+}
+/* 第一屏 */
+.section-1 {
+	background: #fadd67 url(../images/section-1-bg.png) no-repeat center bottom;
+}
+.section-1 .static{
+	left:50%;
+	transform:translate(-50%);
+	bottom: 150px;
+}
+.section-1 .slogn{
+	left:50%;
+	margin-left: 50px;
+	bottom:500px;
+	animation:updown 1s linear infinite alternate;
+}
+
+.section-1 .sofa{
+	left:50%;
+	margin-left: -185px;
+	bottom:346px;
+	animation:updown 1.5s linear infinite alternate;
+}
+
+
+
+/* 第二屏 */
+.section-2{
+	z-index: 10;
+	background:#84a2d4 url(../images/section-2-bg.png) no-repeat center bottom;
+}
+
+.section-2 .search{
+	width: 222px;
+	height: 45px;
+	background: url(../images/section-2-search.png);
+	left:50%;
+	margin-left:360px;
+	bottom:300px;
+}
+.section-2 .search-word{
+	left:126px;
+	top:3px;
+}
+.section-2 .goods{
+	left:50%;
+	margin-left:0;
+	transform:translate(-50%);
+	bottom:210px;
+	height:0;
+}
+
+.section-2 .words{
+	left:50%;
+	margin-left: -200px;
+	bottom: 550px;
+}
+
+.section-2 .words-2{
+	opacity:0;
+}
+
+.section-2 .leave{
+	left:50%;
+	margin-left:-100px;
+	bottom:300px;
+	display: none;
+}
+.section-2 .shirt{
+	left:50%;
+	margin-left:-105px;
+	bottom:340px;
+	width:100px;
+	display:none;
+}
+.section .cover{
+	width:105px;
+	height:105px;
+	background:#FFF;
+	left:50%;
+	margin-left:-107px;
+	bottom:323px;
+	display:none;
+}
+/* 第三屏 */
+.section-3 {
+	background: #ef674d;
+	z-index: 9;
+}
+.section-3 .main{
+	width: 604px;
+	height: 359px;
+	background:url(../images/section-3-bg.png) no-repeat;
+	left:50%;
+	margin-left: -302px;
+	bottom:130px;
+}
+.section-3 .color{
+	right:-18px;
+	bottom:0;
+}
+.section-3 .button{
+	right:60px;
+	bottom:-75px;
+}
+.section-3 .btn2,.color2{
+	opacity:0;
+}
+.section-3 .italic{
+	left:50%;
+	margin-left: -238px;
+	bottom:176px;
+	display: none;
+}
+/* 第四屏 */
+.section-4{
+	background:#fed url(../images/section-4-bg.png) no-repeat center bottom;
+	/* z-index: 10; */
+}
+
+.section-4 .cart{
+	width:407px;
+	height:346px;
+	left:50%;
+	transform:translate(-50%);
+	bottom:80px;
+	z-index: 10;
+}
+
+.section-4 .italic{
+	left:150px;
+	top:-40px;
+	display:none;
+}
+.section-4 .car{
+	z-index: 10;
+}
+.section-4 .word{
+	left:50%;
+	transform:translate(-50%);
+	bottom:500px;
+}
+
+.section-4 .word2{
+	opacity: 0;
+}
+.section-4 .card{
+	left:50%;
+	transform:translate(-50%);
+	bottom:220px;
+	width:283px;
+	height:270px;
+	background:url(../images/section-4-card.png) no-repeat;
+	display:none;
+}
+.section-4 .card-word{
+	left:50%;
+	transform:translate(-50%);
+	top:58px;
+	display: none;
+}
+.section-4 .cloud{
+	left:200px;
+	/* 使用top会在缩放页面是改变 */
+	bottom:560px;
+	animation:leftright 30s linear infinite alternate;
+}
+
+/* 第五屏 */
+
+.section-5{
+	background: url(../images/section-5-bg.png);
+	z-index: 10;
+}
+
+.section-5 .word{
+	left:10%;
+	top:2%;
+}
+
+.section-5 .card{
+	left:50%;
+	margin-left: -550px;
+	top:50%;
+	transform:translateY(-50%);
+	z-index: 10;
+}
+.section-5 .order{
+	left:50%;
+	margin-left: -435px;
+	top:50%;
+	margin-top: -185px;
+	margin-top: -100px;
+
+}
+.section-5 .italic{
+	left:50%;
+	margin-left: -480px;
+	top:50%;
+	margin-top: 36px;
+	margin-top: -80%;
+	display: none;
+}
+.section-5 .hand{
+	left:50%;
+	margin-left: 100px;
+	bottom:0;
+	bottom:-375px;
+	z-index: 10;
+}
+.section-5 .mouse{
+	left:50%;
+	margin-left: 117px;
+	bottom:230px;
+}
+.section-5 .mouseb{
+	opacity: 0;
+}
+/* 解决鼠标线漏出的问题 */
+.section-5 .overflow{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* 第六屏 */
+.section-6{
+	background:#84d9ed url(../images/section-6-bg.png) no-repeat 25% bottom;
+}
+
+.section-6 .car{
+	bottom:0;
+	left:30%;
+	z-index: 10;
+}
+
+.section-6 .box{
+	left:50%;
+	margin-left:-700px;
+	bottom:560px;
+	display:none;
+}
+
+.section-6 .word{
+	left:50%;
+	margin-left:-400px;
+	bottom:500px;
+	opacity:0;
+}
+
+.section-6 .adress{
+	left:50%;
+	bottom:115px;
+	margin-left:-100px;
+	display: none;
+}
+
+.section-6 .man{
+	left:50%;
+	margin-left:-245px;
+	bottom:0;
+	height:0;
+	/* display:none; */
+}
+
+.section-6 .woman{
+	left:50%;
+	bottom:116px;
+	margin-left:300px;
+	display:none;
+}
+
+.section-6 .please{
+	left:50%;
+	margin-left: 180px;
+    bottom: 360px;
+    display:none;
+}
+
+/* 第七屏 */
+.section-7{
+	background: url(../images/section-7-bg.png) no-repeat center bottom;
+}
+
+.section-7 .star{
+	left:50%;
+	margin-left:-293px;
+	bottom: 444px;
+	width: 0;
+}
+
+.section-7 .good{
+	left:50%;
+	margin-left:-280px;
+	margin-left:-180px;
+	bottom:388px;
+	opacity:0;
+}
+/* 第八屏 */
+.section-8{
+	background: url(../images/section-8-bg.png);
+}
+.section-8 .start{
+	left:50%;
+	bottom:50%;
+	margin-left: -145px;
+	margin-bottom: 80px;
+	/* transform:translateX(-50%) translateY(-50%); */
+}
+.section-8 .start img{
+	left:0;
+	top:0;
+}
+.section-8 .start:hover img:first-child{	
+	z-index: 11;
+}
+.section-8 .again{
+	left:50%;
+	bottom:50%;
+	margin-left: 256px;
+	bottom:200px;
+}
+.section-8 .hand{
+	left:0;
+	bottom:0;
+}
+
+
+
+/* css3动画 */
+@keyframes updown{
+	from {
+		transform:translateY(0);
+	}
+
+	to{
+		transform:translateY(60px);
+	}
+}
+
+@keyframes leftright{
+	from{
+		left:50%;
+	}
+	to{
+		left:5%;
+	}
+}
